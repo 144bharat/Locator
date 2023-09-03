@@ -64,9 +64,9 @@
                             </div>  
                         <br><br>
                     <div class="blocks">
-                      <?php echo '<a href="landing_page.php?wheeler_id=two">';?> <div id="whitechild"><img src="./images/mukul_two_wheeler.jpg" alt="" id="whiteimg"><h3>Two Wheeler Services</h3></div><?php echo '</a>'; ?><br>
-                      <?php echo '<a href="landing_page.php?wheeler_id=three">';?><div id="whitechild"><img src="./images/threewheeler.jpg" alt="" id="whiteimg"><h3>Three Wheeler Services</h3></div><?php echo '</a>'; ?><br>
-                      <?php echo '<a href="landing_page.php?wheeler_id=four">';?><div id="whitechild"><img src="./images/mukul_four_wheeler.jpg" alt="" id="whiteimg"><h3>Four Wheeler Services</h3></div><?php echo '</a>'; ?><br>
+                      <?php echo '<a href="landing_page.php?wheeler_id=2">';?> <div id="whitechild"><img src="./images/mukul_two_wheeler.jpg" alt="" id="whiteimg"><h3>Two Wheeler Services</h3></div><?php echo '</a>'; ?><br>
+                      <?php echo '<a href="landing_page.php?wheeler_id=3">';?><div id="whitechild"><img src="./images/threewheeler.jpg" alt="" id="whiteimg"><h3>Three Wheeler Services</h3></div><?php echo '</a>'; ?><br>
+                      <?php echo '<a href="landing_page.php?wheeler_id=4">';?><div id="whitechild"><img src="./images/mukul_four_wheeler.jpg" alt="" id="whiteimg"><h3>Four Wheeler Services</h3></div><?php echo '</a>'; ?><br>
                         <!--<div id="whitechild"><img src="./images/travel.png" alt="" id="whiteimg"><h3>travel</h3></div><br> -->
                     </div>
                     <br>
