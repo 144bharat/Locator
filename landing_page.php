@@ -15,13 +15,16 @@
         
 
       <!-- bharat start -->
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg  my-auto bg-white mx-auto">
+  <img class="mx-auto my-auto h-32 w-2/3" src= <?php 
+          if($id == "2"){ echo "./images/mukul_two_wheeler.jpg";} else if($id == "3"){ echo "./images/Threewheeler.jpg";}else{ echo "./images/mukul_four_wheeler.jpg";}?> alt="card image" height="50px" width="150px">
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <div class="font-bold text-xl mb-2"><?php 
+          if($id == "2"){ echo "Two-Wheeler";} else if($id == "3"){ echo "Three Wheeler";}else{ echo "Four Wheeler";}?></div>
     <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+    <?php 
+          if($id == "2"){ echo "Two-Wheeler <br>Starting Price from 49  &#x20B9;";} else if($id == "3"){ echo "Three Wheeler <br>Starting Price from 249  &#x20B9;";}else{ echo "Four Wheeler <br>Starting Price from 549  &#x20B9;";}?>   
+  </p>
   </div>
   <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
@@ -32,8 +35,7 @@
       <!-- bharat ends -->
         <!-- <div class="my-1"></div> -->
         <div><p class="font-mono text-white">
-          <?php 
-          if($id == "2"){ echo "<img src='./images/mukul_two_wheeler.jpg' id='whiteimg'><br>Two-Wheeler <br>Starting Price from 49  &#x20B9;";} else if($id == "3"){ echo "Three Wheeler <br>Starting Price from 249  &#x20B9;";}else{ echo "Four Wheeler <br>Starting Price from 549  &#x20B9;";}?></p></div>
+          </p></div>
         <div class="w-full max-w-xs">
             <form class="bg-white shadow-md rounded px-8 pt-4 pb-4 my-4">
               <h1 class="landing-head">Booking Information</h1>

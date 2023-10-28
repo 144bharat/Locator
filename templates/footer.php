@@ -67,8 +67,8 @@ if (!defined('ABSPATH'))
 <p class = "copywrite">&copy; 2023 Locator.All Rights Reserved</p>
 <div style="display:flex;gap:20px;">
     <!-- <a href="facebook.com" style="padding-left:300%;"><i class="fa-brands fa-facebook" style="font-size:20px;color:white;"></i></a> -->
-    <a href="instagram.com"><i class="fa-brands fa-instagram" style="font-size:20px;color:white;padding-left:60%;"></i></a>
-    <a href="linkedin.com"><i class="fa-brands fa-linkedin" style="font-size:20px;color:white"></i></a>
+    <a href="https://www.instagram.com/locator.transport" target="_blank"><i class="fa-brands fa-instagram" style="font-size:20px;color:white;padding-left:60%;"></i></a>
+    <a href="https://www.linkedin.com/in/locatorTransport" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:20px;color:white"></i></a>
     <a href="tweeter.com"><i class="fa-brands fa-twitter" style="font-size:20px;color:white"></i></a>
 </div>
 </div>
