@@ -21,11 +21,6 @@ if (!defined('ABSPATH'))
    
 
     <div class="logo">
-        <!-- logo and discription  -->
-        <!-- <p>Powered by:-</p>
-        <p class="footerlogo Widthlogo2">Locator</p>
-        <p class="logoheading"></p> -->
-
         <a href="index.php" class="flex items-start">
         <img src="./images/Main logo/Locator.svg" class="h-14 mr-1 rounded-full" alt="Locator Logo" id="headlogo" />
         <span class="self-start text-2xl font-semibold whitespace-nowrap dark:text-white">Locator</span>
@@ -43,7 +38,6 @@ if (!defined('ABSPATH'))
             <li class=" hover:text-sky-400"><a href="index.php" style="color:white;text-decoration:none;">Home</a></li>
             <li class=" hover:text-sky-400"><a href="whatdefineus.php" style="color:white;text-decoration:none;">Services</a> </li>
             <li class=" hover:text-sky-400"><a href="workwithus.php" style="color:white;text-decoration:none;">Pricing</a></li>
-            <!-- <li><a href="career.php" style="color:white;text-decoration:none;">Career</a></li> -->
             <li class=" hover:text-sky-400"><a href="contactus.php" style="color:white;text-decoration:none;">Contact Us</a></li>
             </ul>
 
@@ -66,7 +60,6 @@ if (!defined('ABSPATH'))
 <div class="wrapper brown" id = wrapper-3>
 <p class = "copywrite">&copy; 2023 Locator.All Rights Reserved</p>
 <div style="display:flex;gap:20px;">
-    <!-- <a href="facebook.com" style="padding-left:300%;"><i class="fa-brands fa-facebook" style="font-size:20px;color:white;"></i></a> -->
     <a href="https://www.instagram.com/locator.transport" target="_blank"><i class="fa-brands fa-instagram" style="font-size:20px;color:white;padding-left:60%;"></i></a>
     <a href="https://www.linkedin.com/in/locatorTransport" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:20px;color:white"></i></a>
     <a href="tweeter.com"><i class="fa-brands fa-twitter" style="font-size:20px;color:white"></i></a>

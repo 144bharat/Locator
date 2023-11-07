@@ -9,7 +9,6 @@
 <div class="content">
     
                 
-                        <!-- <div class="wrapper nopadding mimg1" id= "wrapper-1"> -->
                         <div class="carousel wrapper nopadding"  id= "wrapper-1">
                             <div class="slides">
                                 <img src="./images/mukul_front.jpg" alt="slide image" class="slide">
@@ -30,10 +29,7 @@
                             
                             
                         </div>    
-                        <!-- </div> -->
-
-
-                        <!--white rapper 1 -->
+                         <!--white rapper 1 -->
                         <div class="wrapper" id = "wrapper-2">
                             
                                         <div class="topline">
@@ -50,10 +46,6 @@
 
 
                         <!-- blue wrapper  -->
-                
-                
-               
-                
                 <div class="wrapper" id = "wrapper-2">
                     
                     <div class="topline">
@@ -67,24 +59,18 @@
                       <?php echo '<a href="landing_page.php?wheeler_id=2">';?> <div id="whitechild"><img src="./images/mukul_two_wheeler.jpg" alt="" id="whiteimg"><h3>Two Wheeler Services</h3></div><?php echo '</a>'; ?><br>
                       <?php echo '<a href="landing_page.php?wheeler_id=3">';?><div id="whitechild"><img src="./images/threewheeler.jpg" alt="" id="whiteimg"><h3>Three Wheeler Services</h3></div><?php echo '</a>'; ?><br>
                       <?php echo '<a href="landing_page.php?wheeler_id=4">';?><div id="whitechild"><img src="./images/mukul_four_wheeler.jpg" alt="" id="whiteimg"><h3>Four Wheeler Services</h3></div><?php echo '</a>'; ?><br>
-                        <!--<div id="whitechild"><img src="./images/travel.png" alt="" id="whiteimg"><h3>travel</h3></div><br> -->
                     </div>
                     <br>
                     <br>
                     <br>
                     <br>
-
-
                 </div>
                  
                 <!-- white wrapper  -->
 
                 <div class="wrapper white-opac" id = "wrapper-2">
-                    
                     <div class="topline">
-
                       <h1>HAMARA SAFAR APKE SATH  </h1>
-                                        
                             <div class="paragraph">
                             It is very important to get as much information of van and our transport. We will ask for the length, width, height and approximate weight of the van. We will discuss the status of the van as well.the faster and smoother the transport process becomes. Please ensure that all dimensions, size and weight of the van are verified and confirmed to plan the move accordingly.
                             </div>
@@ -108,7 +94,6 @@
                     <br>
                 </div>
                 <?php
-    
                     include ABSPATH . "/templates/footer.php"
                 ?>
 

@@ -1,6 +1,5 @@
 <?php $id = $_GET['wheeler_id']; ?>
 <?php
-// print_r($id);
     define('ABSPATH', __DIR__);
     include ABSPATH . "/config.php";
     include ABSPATH . "/templates/header.php"
@@ -27,13 +26,16 @@
   </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    <details>
+      <summary>Description</summary>
+      <ul class="list-disc inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+        <li>Now this is a story all</li>
+        <li> about how, my life got flipped-turned upside down</li>
+      </ul>
+    </details>
   </div>
 </div>
       <!-- bharat ends -->
-        <!-- <div class="my-1"></div> -->
         <div><p class="font-mono text-white">
           </p></div>
         <div class="w-full max-w-xs">
@@ -92,9 +94,6 @@
       </div>
   </div>
 </div>
-
-
-
 <script>
 $(document).ready(function(){
 

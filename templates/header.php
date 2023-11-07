@@ -46,54 +46,16 @@ exit();
 
 </head>
 <body>
-    <!-- <div class="nav-panel white">
-        <ul class= "nav-list">
-            <li style="margin-left:-42%;margin-right:20%;"><img src="./images/Main logo/backlogo.png" alt="" class= "footerlogo Widthlogo1" width="50" height="50"></li>
-            <li><a href="index.php">Who We Are</a></li>
-            <li><a href="whatdefineus.php">What Define Us </a> </li>
-            <li><a href="workwithus.php">Work With US</a></li>
-            <li><a href="career.php">Career</a></li>
-            <li><a href="contactus.php">Contact Us</a></li>
-        </ul>
-        <div class="hamburger-container">
-            <div class="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div id="menu-overlay">
-            <div class="bar">
-                <div class="logo">
-                    <img src="./images/Main logo/backlogo.png" alt="" class= "Widthlogo1" width="50" height="50">
-                    <div class="cross" id="cross">x</div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <ul class="overlay-nav-list">
-                <li><a href="index.php"> WHO WE ARE</a></li>
-                <li><a href="whatdefineus.php">WHAT DEFINES US</a></li>
-                <li><a href="workwithus.php">WORK WITH US</a></li>
-                <li><a href="career.php">CAREER</a></li>
-                <li><a href="contactus" class="btn">CONTACT US</a></li>
-            </ul>
-        </div>
-    </div> -->
-   
-
-    
-
-
-
-
-
-
 <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="index.php" class="flex items-center">
-        <img src="./images/Main logo/Locator.svg" class="h-14 mr-3 rounded-full" alt="Locator Logo" id="headlogo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Locator</span>
+      <img src="./images/Main logo/Locator.svg" class="h-14 mr-3 rounded-full" alt="Locator Logo" id="headlogo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Locator</span>
     </a>
+    <div class="flex gap-5">
+        <a href="tel:8447263946"><i class="fa-solid fa-square-phone fa-2xl"></i></a>
+        <a href="mailto:locator.ts@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+    </div>
     <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">

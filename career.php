@@ -32,14 +32,6 @@ Making transporting simpler is always our goal. The greatest drivers, who have u
                                                 <p class="whitetext">-------select------</p>
                                                 <p><img src="./image/polygon.svg"/></p>
                                         </div>
-                                        <!-- <ul class=" wrapper whitetext" id="dropdown-list">
-                                                <li>Real Estate Partner </li>
-                                                <li>Food Service Requirements Partner </li>
-                                                <li>Food & Beverage Brands Partner </li>
-                                                <li>Franchisees</li>
-                                                <li>Brand and Marketing Alliances</li>
-                                        </ul> -->
-
                                         <form class="topline2 myform">
                                                 <p class="formpara">
                                                 <h2 class="star">Your NAME</h2>
@@ -74,17 +66,7 @@ Making transporting simpler is always our goal. The greatest drivers, who have u
                                                 <input type="submit" value="Apply Now" id="formbtn">
                                          </form>       
                             </div>
-
-
-
-
-
-
                         </div>
-
-
-
-
 
                 </div>
         

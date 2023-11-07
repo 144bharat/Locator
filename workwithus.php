@@ -11,7 +11,6 @@
             <div class="frontbox sky">
                         <h1 class="heading"  >How Far Will You Go</h1>
                         <p class="tagline">Faster than you Think!</p>
-                        
             </div>
   </div>
   <br>
@@ -21,9 +20,7 @@
                     </p>
                     <br>
                     <br>
-
                 <div id="dropdiv">
-                    
                     <div class="topline2">
                         <h1>INTERESTED AREA</h1>
                     </div>
@@ -48,61 +45,13 @@
 
 <div id="list1_1">
 <?php
-
 include ABSPATH . "/templates/realestate.php";
 
 ?>
 </div>
-<div id="list2_2">
-<?php
-
-include ABSPATH . "/templates/fsrp.php";
-
-?>
-</div>
-<div id="list3_3">
-<?php
-
-include ABSPATH . "/templates/foodnBB.php";
-
-?>
-</div>
-<div id="list4_4">
-<?php
-
-include ABSPATH . "/templates/franchisees.php";
-
-?>
-</div>
-<div id="list5_5">
-<?php
-
-include ABSPATH . "/templates/BandM.php";
-
-?>
-</div>
-
-
-
-
 </div>
 <script>
   let l1 = document.getElementById("list1_1");
-
-let l2 = document.getElementById("list2_2");
-
-
-let l3 = document.getElementById("list3_3");
-
-
-let l4 = document.getElementById("list4_4");
-
-
-let l5 = document.getElementById("list5_5");
-
-
-
-
     $(document).ready(function(){
         $("#dropdown-list").hide();
         
